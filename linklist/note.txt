@@ -1,0 +1,20 @@
+Singly Linklist
+#PRO
+-simple implementation
+-lesser memory
+-littlebit faster
+
+#DISADVANTAGE
+-cant reverse the objects
+
+so if you dont have anything to search, singly linklist is the best option
+--------------------------------------------------------------------------------------------------------------
+Doubly Linklist
+#PRO
+- it can be iterated from the front to the back
+- if you need to delet a previous node you dont need to traverse from the begining because it hold previous node
+
+#DISADVANTAGE
+-more complex
+-more memory/storage
+-extra operation when we want to delete or insert

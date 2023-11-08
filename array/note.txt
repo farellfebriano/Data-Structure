@@ -1,0 +1,5 @@
+NOTE.
+
+in some cases, append or repend in array will take o(n) in dynamic array. It is because if the computer
+somehow only store the array with the same available storage with the the length of the array, the computer
+need to find location and loop trough the array and copy all of the values in the bigger slot
