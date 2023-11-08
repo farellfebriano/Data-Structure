@@ -6,7 +6,10 @@ LIFO : Last In First Out
 
 ## Function
 
-`Lookup()` O(n)
+`lookup()` O(n)
+`pop()` O(1)
+`push()` O(1)
+`peek()` O(1)
 
 ## Example 1
 
