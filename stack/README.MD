@@ -17,19 +17,15 @@ LIFO : Last In First Out
 <h3>ARRAY</h3>
 Pro:<br>
 Array allow something called `cache locality`, which makes them technically `faster` when accesing its items in memmory because they sit next to eachother.
-
+<br>
 Cons:<br>
 it has `limited` memory
-
 ---
+<h3>LINKED LIST</h3>
 
-LINKED LIST
-
-Pro:
-
+Pro:<br>
 it has `dynamic` memory
-
-Cons:
-
+<br>
+Cons:<br>
 linked list will little bit `slower` since the input its scater around the memory.
 link lists will have `extra memory` associated with them because we have to hold on to those pointers.
