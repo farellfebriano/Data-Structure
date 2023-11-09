@@ -23,6 +23,8 @@ Cons:
 
 - it has `limited` memory
 
+---
+
 LINKED LIST
 
 Pro:
