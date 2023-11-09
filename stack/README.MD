@@ -25,6 +25,7 @@ LINKED LIST
 
 Pro:
 - it has `dynamic` memory
+
 Cons:
 - linked list will little bit `slower` since the input its scater around the memory.
 - link lists will have `extra memory` associated with them because we have to hold on to those pointers.
