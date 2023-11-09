@@ -17,11 +17,11 @@ ARRAY
 
 Pro:
 
-- Array allow something called cache locality, which makes them technically `faster` when accesing its items in memmory because they sit next to eachother.
+Array allow something called `cache locality`, which makes them technically `faster` when accesing its items in memmory because they sit next to eachother.
 
 Cons:
 
-- it has `limited` memory
+it has `limited` memory
 
 ---
 
@@ -29,9 +29,9 @@ LINKED LIST
 
 Pro:
 
-- it has `dynamic` memory
+it has `dynamic` memory
 
 Cons:
 
-- linked list will little bit `slower` since the input its scater around the memory.
-- link lists will have `extra memory` associated with them because we have to hold on to those pointers.
+linked list will little bit `slower` since the input its scater around the memory.
+link lists will have `extra memory` associated with them because we have to hold on to those pointers.
