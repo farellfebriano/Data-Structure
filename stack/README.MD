@@ -15,12 +15,10 @@ LIFO : Last In First Out
 
 ARRAY
 
-Pro:
-
+Pro:<br>
 Array allow something called `cache locality`, which makes them technically `faster` when accesing its items in memmory because they sit next to eachother.
 
-Cons:
-
+Cons:<br>
 it has `limited` memory
 
 ---
