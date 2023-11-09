@@ -22,6 +22,7 @@ Cons:
 - it has `limited` memory
 
 LINKED LIST
+
 Pro:
 - it has `dynamic` memory
 Cons:
