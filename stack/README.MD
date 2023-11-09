@@ -13,8 +13,8 @@ LIFO : Last In First Out
 
 ## Arrays vs Linked list for Stack
 
-ARRAY
 
+<h3>ARRAY</h3>
 Pro:<br>
 Array allow something called `cache locality`, which makes them technically `faster` when accesing its items in memmory because they sit next to eachother.
 
