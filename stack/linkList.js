@@ -26,6 +26,12 @@ class Stack {
     return;
   }
   pop() {
+    if (!this.pop) {
+      return null;
+    }
+    if (this.bottom === this.top) {
+      this.bottom = null;
+    }
     this.top = this.top.next;
     this.length--;
     return;
@@ -53,5 +59,5 @@ myStack.push(7);
 // myStack.pop();
 // myStack.pop();
 // myStack.list();
-console.log(myStack.isEmpty());
+// console.log(myStack.isEmpty());
 // console.log(myStack.peek());
