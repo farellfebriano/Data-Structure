@@ -30,3 +30,13 @@ When we create a queue, it is BEST using linklit since it dosent have index a as
 # Implemeting Queue with Stacks
 
 ![View Design](assets/implementing-queues-with-stack-2.png)
+
+In queue that uses a stacts, we will use `two array` that will mimic an queue.
+
+```javascript
+  constructor() {
+    this.popArr = [];
+    this.pushArr = [];
+    this.length = 0;
+  }
+```
