@@ -80,7 +80,6 @@ class LinkedList {
       curentNode = curentNode.next;
       j++;
     }
-
     return curentNode;
   }
   delete(index) {
