@@ -24,3 +24,9 @@ You wouldnt want to build queue with array. Because arrays have indexes associat
 
 Pro:<br>
 When we create a queue, it is BEST using linklit since it dosent have index a associated with them. Instead they used a pointers which is `head` and `tail` . Also unshift a linklist is `O(1)` hence it suit the time complexity that is listed above.
+
+---
+
+# Implemeting Queue with Stacks
+
+![View Design](implementing-queues-with-stack.png)

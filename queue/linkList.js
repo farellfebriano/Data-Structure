@@ -21,6 +21,7 @@ class Queue {
       this.last = newNode;
     }
     this.length++;
+    return this;
   }
   // remove a value
   dequeue() {
@@ -49,8 +50,6 @@ class Queue {
   }
 }
 const myQueue = new Queue();
-myQueue.enqueue(1);
-myQueue.dequeue();
 myQueue.enqueue(1);
 myQueue.enqueue(2);
 myQueue.enqueue(3);
