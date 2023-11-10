@@ -40,3 +40,47 @@ In queue that uses a stacts, we will use `two array` that will mimic an queue.
     this.length = 0;
   }
 ```
+
+### Enqueue
+
+When we enqueue a value, it will always pushed to the pushAray
+
+```javascript
+  enqueue(element) {
+    this.pushArr.push(element);
+    this.length++;
+    return this;
+  }
+```
+
+### Dequeue
+
+When dequeue method called it will do two different things with 2 different condition. The first condition is
+when the popArr is empty and not empty.
+
+popArr is empty<br>
+
+1. The method will iterate all the value to the popArr array with using build in push and pop method.
+2. Then it will erase the last value from the popArr array using pop() method
+
+popArr is not empty<br>
+
+1. It will erase the last value from the popArr array using pop() method
+
+```javascript
+ dequeue() {
+    const length = this.pushArr.length;
+    if (this.length === 0) {
+      console.log("queue is empy");
+      return null;
+    }
+    if (this.popArr.length === 0) {
+      for (let i = 0; i < length; i++) {
+        this.popArr.push(this.pushArr.pop());
+      }
+    }
+    this.popArr.pop();
+    this.length--;
+    return this;
+  }
+```
