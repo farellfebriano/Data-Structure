@@ -4,6 +4,8 @@ In programming, a tree is a hierarchical data structure that consists of nodes c
 
 ## Key Concept
 
+![View Design](assets/structure-of-tree.png)
+
 - Root: The topmost node in a tree, from which all other nodes are descended. It is the starting point for traversing the tree.
 - Node: Each element or entity in a tree, which contains data and may have zero or more child nodes.
 - Parent: A node in the tree that has one or more child nodes.
@@ -14,7 +16,7 @@ In programming, a tree is a hierarchical data structure that consists of nodes c
 - Height: The length of the longest path from a node to a leaf. The height of a tree is the height of its root node.
 - Subtree: A tree formed by a node and all its descendants.
 
-## How to initiate
+## Most Common tree
 
 ```javascript
 const arr = [1, 2, 3, 4, 5];
