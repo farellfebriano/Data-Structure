@@ -1,4 +1,4 @@
-# TRIES
+# TREES
 
 In programming, a tree is a hierarchical data structure that consists of nodes connected by edges. It is called a "tree" because it visually resembles an inverted tree with a root at the top and branches spreading downward. Each node in a tree has a parent node and zero or more child nodes.
 
