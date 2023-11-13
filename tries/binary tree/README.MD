@@ -18,3 +18,9 @@ A binary tree is a type of tree data structure in which each node has at most tw
 - N-ary Tree: A tree in which each node can have more than two children.
 - Trie: A tree-like data structure used for storing an associative array where the keys are usually strings.
 - Heap: A specialized tree-based data structure that satisfies the heap property, which depends on whether it is a min-heap or a max-heap.
+
+## Method
+
+- `lookup()` O(Log N)
+- `Delete()` O(Log N)
+- `Insert()` O(Log N)
