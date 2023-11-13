@@ -81,27 +81,13 @@ class DoublyLinlist {
 
     return;
   }
-  // reverse() {
-  //   if (!this.head) {
-  //     return this.head;
-  //   }
-  //   this.tail = this.head;
-  //   let current = this.head;
-  //   let temp = null;
-  //   while (current) {
-  //     temp = current.previous;
-  //     current.previous = current.next;
-  //     current.next = temp;
-  //     current = current.previous;
-  //   }
-  //   this.head = temp.previous;
-  // }
   reverse() {
     if (!this.head) {
       return this.head;
     }
+    this.tail = this.head;
     let current = this.head;
-    let temp;
+    let temp = null;
     while (current) {
       temp = current.previous;
       current.previous = current.next;
