@@ -24,3 +24,11 @@ A binary tree is a type of tree data structure in which each node has at most tw
 - `lookup()` O(Log N)
 - `Delete()` O(Log N)
 - `Insert()` O(Log N)
+
+## log(N) means ?
+
+h = heights
+
+nodes = 2^h-1<br>
+
+the equation above simply means that the ammount of nodes is equal 2 the power of the heights of the tree minus one<br<>
