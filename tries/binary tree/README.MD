@@ -27,8 +27,18 @@ A binary tree is a type of tree data structure in which each node has at most tw
 
 ## log(N) means ?
 
-h = heights
-
+`h = heights`
 nodes = 2^h-1<br>
 
-the equation above simply means that the ammount of nodes is equal 2 the power of the heights of the tree minus one<br<>
+- the equation above simply means that the ammount of nodes is equal 2 the power of the heights of the tree minus one<br<>
+
+of nodes = 2^h -1
+log nodes = steps
+
+- we get rid of the -1 because it is not significat. So basically when we said log(N) is means the maximum steps
+
+`example:`<br>
+
+the maximum steps for 7 nodes in binary stres are
+log(7) = is 4 steps <br>
+2^2.8 + 1 = 7
