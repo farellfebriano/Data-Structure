@@ -35,6 +35,7 @@ class BinarySearchTree {
       }
     }
   }
+
   lookup(value) {
     let current = this.root;
     if (!this.root) {
@@ -42,6 +43,7 @@ class BinarySearchTree {
       return null;
     }
     while (true) {
+      // node is not exist
       if (!current) {
         console.log("node is cannot be found");
         return null;
@@ -63,34 +65,36 @@ class BinarySearchTree {
   }
   // for the remove we need to use the same lookp function but with little bit additional memory for remembering the previous node
   // we need to find the corect node
-  remove() {
+  remove(value) {
     if (!this.root) {
-      console.log("tree is empty");
       return null;
     }
     let current = this.root;
-    while (true) {
-      if (!current) {
-        console.log("node cannot be found");
-      }
-      // curent == value
-      else if (current.value === value) {
-        const nextleft = current.left;
-        const nextrigt = current.right;
-      }
-      //left
-      else if (value < current.value) {
-        console.log("left");
+    let parrent = null;
+    while (current) {
+      if (value < current.value) {
+        parrent = current;
         current = current.left;
-      }
-      //right
-      else {
-        console.log("right");
+      } else if (value > current.value) {
+        parrent = current;
         current = current.right;
+        // we have a match
+      } else if (value === current.value) {
+        // no right child
+        if (current.right === null) {
+          if (parrent === null) {
+            this.root = current.left;
+          } else {
+            //if parent > current value, make current left child a child of parent
+            if (current.value < parrent.value) {
+              parrent = current.left;
+              //if parent < current value, make left child a right child of parent
+            } else if (current.value > parrent.value) {
+              parent = current.right;
+            }
+          }
+        }
       }
-      //creating a memory for the previous node
-      // need to make it at last so it remembers the previous node
-      const previous = current;
     }
   }
 }
@@ -118,5 +122,5 @@ myBinarySearch.insert(6);
 myBinarySearch.insert(170);
 myBinarySearch.insert(180);
 myBinarySearch.insert(2000);
-console.log(myBinarySearch.lookup(-1));
+console.log(myBinarySearch.lookup(170));
 // console.log(JSON.stringify(traverse(myBinarySearch.root)));

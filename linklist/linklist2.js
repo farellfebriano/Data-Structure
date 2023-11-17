@@ -113,9 +113,10 @@ class LinkedList {
 }
 
 const myLinklist = new LinkedList(0);
-myLinklist.append(1);
-myLinklist.append(2);
-myLinklist.append(3);
-myLinklist.append(4);
-myLinklist.reverse();
+// myLinklist.append(1);
+// myLinklist.append(2);
+// myLinklist.append(3);
+// myLinklist.append(4);
+// myLinklist.reverse();
+myLinklist.delete(0);
 myLinklist.list();
