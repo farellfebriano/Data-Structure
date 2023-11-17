@@ -4,7 +4,7 @@ A binary tree is a type of tree data structure in which each node has at most tw
 
 ## Type of binary tree
 
-- Max Heap
+- Max Heap<br>
   ![View Design](assets/max-heap.png)
 
 In a Max-Heap the key present at the root node must be greater than or equal among the keys present at all of its children. The same property must be recursively true for all sub-trees in that Binary Tree. In a Max-Heap the maximum key element present at the root. Below is the Binary Tree that satisfies all the property of Max Heap.
