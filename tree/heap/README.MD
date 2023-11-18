@@ -21,3 +21,10 @@ In a Min-Heap the key present at the root node must be less than or equal among 
 - `lookup()` O(n)
 - `Delete()` O(Log N)
 - `Insert()` O(Log N)
+
+## How it works
+
+<h4> Get into Parent, left, right </h4>
+- Arr[(i-1)/2] Returns the parent node.
+- Arr[(2*i)+1] Returns the left child node.
+- sArr[(2*i)+2] Returns the right child node.
