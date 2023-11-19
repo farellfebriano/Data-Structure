@@ -24,8 +24,12 @@ In a Min-Heap the key present at the root node must be less than or equal among 
 
 ## How it works
 
-<h3> Get into Parent, left, right </h3>
+<h3> equation to get parent, left, & right </h3>
 
 - Arr[(i-1)/2] Returns the parent node.
 - Arr[(2*i)+1] Returns the left child node.
 - sArr[(2*i)+2] Returns the right child node.
+
+## How it works
+
+<h3> equation to get parent, left, & right </h3>
