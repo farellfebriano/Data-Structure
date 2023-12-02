@@ -15,4 +15,12 @@ A graph data structure is a way of representing the relationships and connection
 
 ![View Design](assets/directed-graph.png)
 
-## Method
+<br>
+<br>
+
+<h3>Undirected Graph :</h3>
+In an undirected graph, the edges have no direction. An edge between nodes A and B implies a connection in both directions—from A to B and from B to A.
+<br>
+<br>
+
+![View Design](assets/undirected-graph.png)
