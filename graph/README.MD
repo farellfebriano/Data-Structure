@@ -24,3 +24,24 @@ In an undirected graph, the edges have no direction. An edge between nodes A and
 <br>
 
 ![View Design](assets/undirected-graph.png)
+
+## Cyclic Vs Acyclic
+
+<h3>Cyclic</h3>
+- A cyclic graph, on the other hand, contains at least one cycle.
+- Cyclic graphs can represent scenarios where there are feedback loops or circular dependencies.
+<br>
+<br>
+
+![View Design](assets/cyclic-graph.png)
+
+<br>
+<br>
+
+<h3>Uncyclic</h3>
+- An acyclic graph, as the name suggests, does not contain any cycles.
+- Acyclic graphs are also referred to as "DAGs" (Directed Acyclic Graphs) when dealing specifically with directed graphs.
+<br>
+<br>
+
+![View Design](assets/uncyclic-grapg.webp.png)
