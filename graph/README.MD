@@ -132,8 +132,6 @@ const example1 = [
   [0, 1, 1, 0], // the relation of 3, 1, 2
 ];
 
-// hence
-
 // using object
 const example1 = {
   0: [0, 0, 1, 0], // the relation of 0 and 2
