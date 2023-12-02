@@ -39,9 +39,33 @@ In an undirected graph, the edges have no direction. An edge between nodes A and
 <br>
 
 <h3>Uncyclic</h3>
+
 - An acyclic graph, as the name suggests, does not contain any cycles.
 - Acyclic graphs are also referred to as "DAGs" (Directed Acyclic Graphs) when dealing specifically with directed graphs.
+  <br>
+  <br>
+
+![View Design](assets/uncyclic-graph.png)
+
+## Weighted Vs Unweighted Graph
+
+<h3>Weighted</h3>
+
+- In a weighted graph, each edge has an associated numerical value known as a weight.
+- These weights can represent various metrics, such as distances, costs, time, or any other relevant quantity associated with the relationship between the nodes connected by the edge.
+  -Weighted graphs are used to model scenarios where the strength or cost of connections between nodes is quantifiable. For example, in a transportation network, the weights could represent distances between locations.
+  <br>
+  <br>
+
+![View Design](assets/weightend-graph.png)
+
 <br>
 <br>
+
+<h3>Uncyclic</h3>
+
+- In an unweighted graph, all edges are considered to have equal value, and no numerical weights are associated with them.
+  <br>
+  <br>
 
 ![View Design](assets/uncyclic-graph.png)
