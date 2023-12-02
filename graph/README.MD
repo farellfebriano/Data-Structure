@@ -62,7 +62,7 @@ In an undirected graph, the edges have no direction. An edge between nodes A and
 <br>
 <br>
 
-<h3>Uncyclic</h3>
+<h3>Unweighted</h3>
 
 - In an unweighted graph, all edges are considered to have equal value, and no numerical weights are associated with them.
   <br>
