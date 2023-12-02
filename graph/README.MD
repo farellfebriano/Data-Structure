@@ -85,3 +85,60 @@ in this example we will use this graph as a case to understand each technique
 ![View Design](assets/graph-example.png)
 
 # Edge List
+
+with this technique the relationsips between the nodes are using list and nodes like the code bellow
+
+```javascript
+// example  Edge List with using list
+const example1 = [
+  [1, 2],
+  [2, 3],
+  [3, 1],
+];
+
+// example  Edge List with using touple
+const example2 = [(1, 2), (2, 3), (3, 1)];
+```
+
+# Adjacent List
+
+With adjacent list we going to use the index as the node and the value as the nodes neighbors.
+
+```javascript
+// but this technique wont work if there is the relationships is not numbers. what if data or word
+const example1 = [[2], [2, 3], [0, 1, 3], [1, 2]];
+
+// hence
+
+// we use object instead with using the key as the node and the values as the neighbors99
+const example2 = {
+  0: [2],
+  1: [2, 3],
+  2: [0, 1, 3],
+  3: [1, 2],
+};
+```
+
+# Adjacent Matrix
+
+with Adjacent Matrix we use the index and matrix as the relation of neighbor nodes
+
+```javascript
+// using list
+const example1 = [
+  [0, 0, 1, 0], // the relation of 0 and 2
+  [0, 0, 1, 1], // the relation of 1, 2, 3,
+  [1, 1, 0, 1], // the relation of 2, 0, 3
+  [0, 1, 1, 0], // the relation of 3, 1, 2
+];
+
+// hence
+
+// using object
+const example1 = {
+  0: [0, 0, 1, 0], // the relation of 0 and 2
+  1: [0, 0, 1, 1], // the relation of 1, 2, 3,
+  2: [1, 1, 0, 1], // the relation of 2, 0, 3
+  3: [0, 1, 1, 0], // the relation of 3, 1, 2
+};
+```
