@@ -69,3 +69,19 @@ In an undirected graph, the edges have no direction. An edge between nodes A and
   <br>
 
 ![View Design](assets/uncyclic-graph.png)
+
+---
+
+## How to build a graph
+
+there are three tradional way on how to create graph
+
+- Edge List
+- Adjacent List
+- Adjacent Matrix
+
+in this example we will use this graph as a case to understand each technique
+
+![View Design](assets/graph-example.png)
+
+# Edge List
