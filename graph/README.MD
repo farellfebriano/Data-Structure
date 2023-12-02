@@ -44,4 +44,4 @@ In an undirected graph, the edges have no direction. An edge between nodes A and
 <br>
 <br>
 
-![View Design](assets/uncyclic-grapg.webp.png)
+![View Design](assets/uncyclic-graph.png)
