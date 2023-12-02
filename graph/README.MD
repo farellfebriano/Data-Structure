@@ -10,11 +10,7 @@ A graph data structure is a way of representing the relationships and connection
 - In a directed graph, each edge has a direction associated with it. The edges are ordered pairs, indicating a one-way connection from one node to another.
 - Formally, an edge from node A to node B is distinct from an edge from B to A. The presence of an edge from A to B doesn't imply the existence of an edge from B to A.
 - Directed graphs are useful for representing asymmetric relationships or flows where the direction matters, such as in network traffic, dependencies, or hierarchical structures.
-
-```javascript
-const arr = [1, 2, 3, 4, 5];
-let sets = new Set(arr);
-```
+![View Design](assets/directedGraph.png)
 
 ## Method
 
