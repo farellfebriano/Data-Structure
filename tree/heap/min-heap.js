@@ -99,6 +99,16 @@ class MinHeap {
     this.heapifyDown();
     return temp;
   }
+  lookup(value) {
+    // O(n)
+    for (let i; i < this.heap.length; i++) {
+      if (this.heap[i] === value) {
+        return index, value;
+      }
+    }
+    console.log("the value is not exist");
+    return null;
+  }
 }
 
 const myMinHeap = new MinHeap();
