@@ -12,6 +12,7 @@ A graph data structure is a way of representing the relationships and connection
 - Directed graphs are useful for representing asymmetric relationships or flows where the direction matters, such as in network traffic, dependencies, or hierarchical structures.
 <br>
 <br>
+
 ![View Design](assets/directed-graph.png)
 
 ## Method
